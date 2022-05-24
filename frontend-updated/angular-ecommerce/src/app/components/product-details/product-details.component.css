@@ -1,0 +1,14 @@
+.price{
+    margin:20px 0 20px;
+    font-weight:800;
+    font-size: larger;
+    color:black
+}
+.detail-section{
+    margin-top:60px;
+    margin-bottom: 6rem;
+}
+
+.detail-img{
+    width: 100%;
+}

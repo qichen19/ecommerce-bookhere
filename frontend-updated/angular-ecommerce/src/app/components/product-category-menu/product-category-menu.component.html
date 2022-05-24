@@ -1,0 +1,35 @@
+<!-- <div class="menu-sidebar-content js-scrollbar1">
+    <nav class="navbar-sidebar">
+      <ul class="list-unstyled navbar-list">
+        <li *ngFor="let productCategory of productCategories">
+          <a routerLink="/category/{{productCategory.id}}" routerLinkActive="active-link">{{productCategory.categoryName}}</a>
+        </li>
+      </ul>
+    </nav>
+  </div> -->
+
+  <!-- <div class="nav-item" ngbDropdown>
+    <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown1" role="button">
+      Our Products
+    </a>
+    <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
+      <li *ngFor="let productCategory of productCategories">
+        <a ngbDropdownItem routerLink="/category/{{productCategory.id}}" routerLinkActive="active-link">{{productCategory.categoryName}}</a>
+      </li>
+    </div>
+  </div> -->
+
+
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <div id="navbarNav">
+      <ul ngbNav #nav="ngbNav" class="nav-tabs">
+        <li class="nav-item" *ngFor="let productCategory of productCategories">
+          <a class="nav-link" routerLink="/category/{{productCategory.id}}" routerLinkActive="active-link">{{productCategory.categoryName}}</a>
+        </li>
+        <a class="nav-link" routerLink="/about-us" routerLinkActive="active-link">About Us</a>
+      </ul>
+    </div>
+    </div>
+  </nav>
+

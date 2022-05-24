@@ -1,0 +1,26 @@
+.fa-shopping-cart {
+    color: #ffbb33;
+}
+
+.cart-area.d-n{
+    display:block
+}
+
+.cart-area i{
+    font-size:22px;
+    float:left;
+    margin-top:16px;
+    color:#fff;
+    margin-left:15px
+}
+
+.total{
+    background:#ffbb33;
+    line-height:43px;
+    color:#fff;
+    border-radius:30px;
+    border:1.5px solid #ffbb33;
+    float:left;
+    margin-top:7px;
+    padding-left:17px
+}
